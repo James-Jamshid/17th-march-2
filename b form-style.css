@@ -1,0 +1,120 @@
+
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; */
+}
+body{
+    display: flex;
+    background-size: cover;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #b1d6ee, #9e9d9e );
+}
+.container{
+    /* max-width: 700px; */
+    width: 600px;
+    height: 500px;
+    background: rgb(97, 23, 167);
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 8px;
+
+}
+form{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0; */
+
+}
+.inner-box{
+    /* margin-bottom: block;
+    width: calc(100% / 2- 20px);
+    height: 300px; */
+
+  
+    
+
+}
+::placeholder {
+    color: rgb(233, 231, 231);
+    opacity: 1; /* Firefox */
+  }
+.name-part, .details, .message, .submit{
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    /* border: 2px solid #e9eaea; */
+    font-size: 26px;
+    text-size-adjust: 18px;
+    font-size: 24px;
+    border-radius: 5px;
+    /* outline: none; */
+    /* transition: all0.5s ease; */
+
+}
+.name-part .input{
+    display: flex;
+    margin-left: 5%;
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left:15px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    background-color:rgb(143, 44, 236);
+
+
+  
+
+}
+
+.second-input{
+    margin-left:3%;
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(143, 44, 236);
+
+}
+.inner-message{
+    margin-left: 5%;
+    width: 75%;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(143, 44, 236);
+
+
+
+
+}
+.inner-submit{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 80%;
+    height: 30px;
+   
+    font-size: 16px;
+    font-family: sans-serif ;
+    border: 1px solid #ccc;
+   
+    border-radius: 5px;
+    padding-left: 150px;
+    background-color:rgb(44, 236, 101);
+
+}
